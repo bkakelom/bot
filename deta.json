@@ -1,0 +1,10 @@
+{
+  "name": "gold-hunta-telegram-bot",
+  "runtime": "python3.11",
+  "entrypoint": "main.py",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "",
+    "CRYPTO_API_TOKEN": "",
+    "BOT_URL": ""
+  }
+}
