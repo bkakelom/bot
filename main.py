@@ -12,7 +12,7 @@ from telegram.ext import (
     CallbackQueryHandler,
     ContextTypes
 )
-from CryptoPayAPI import CryptoPay
+from pycryptopay import CryptoPay
 
 # === Configuration ===
 USD_TO_ETB_RATE = 160
